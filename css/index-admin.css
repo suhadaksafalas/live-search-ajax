@@ -1,0 +1,159 @@
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    background-color: rgb(209, 209, 209);
+}
+.bagian-header{
+    background-color: crimson;
+    box-shadow: 0px 4px 5px rgb(185, 185, 185);
+    position: absolute;
+    width: 100%;
+    height: 60px;
+}
+
+.bagian-header h2{
+    padding-left: 100px;
+    color: white;
+    position: fixed;
+    top: -10px;
+}
+.menu ul{
+    list-style: none;
+    position: fixed;
+    left: 400px;
+}
+.menu li{
+    float: left;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 19px;
+    padding: 10px;
+}
+.menu a:hover{
+    color: white;
+    border-bottom: 3px solid white;
+    
+}
+.logout{
+    text-align: center;
+    background-color: rgb(255, 153, 0);
+    width: 70px;
+    padding: 5px;
+    position: fixed;
+    right: 30px;
+    top: 13px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 5px rgb(85, 85, 85);
+    
+}
+.logout:hover{
+    background-color: rgb(255, 179, 64);
+}
+.logout a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+
+
+}
+.bagian-konten{
+    width: 80%;
+    background-color: white;
+    margin: auto;
+}
+.container{
+    background-color: white;
+    padding: 50px 50px;
+    color: rgb(0, 0, 0);
+
+    
+}
+.modif{
+    font-family: sans-serif;
+    color: #444;
+    width: 80%;
+    border: 1px solid #bbbbbb;  
+    margin: auto; 
+    box-shadow: 1px 1px 5px rgb(151, 151, 151);
+}
+.modif tr th{
+    background: rgb(192, 26, 59);
+    color: #fff;
+    font-weight: normal;
+    padding: 5px;
+
+}
+.modif tr td{
+    width: auto;
+    padding: 10px 2px;
+    text-align: center;
+}
+.modif tr:hover {
+    background-color: #f5f5f5;
+}
+.modif tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+.edit{
+    padding: 5px 15px;
+    background-color: rgb(255, 136, 0);
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+}
+.hapus{
+    padding: 5px 15px;
+    background-color: rgb(0, 174, 255);
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+}
+.cari{
+    position: relative;
+    left: 130px;
+    bottom: 10px;
+
+}
+.inp{
+    position: relative;
+    right: -600px;
+    
+  
+}
+.inp .carie{
+    padding: 5px 25px;
+    border: none;
+    background-color: rgb(245, 245, 245);
+    border-radius: 3px;
+    box-shadow: 1px 1px 2px rgb(85, 85, 85);
+}
+.inp .btn{
+    color: white;
+    padding: 5px;
+    width: 90px;
+    background-color: teal;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px rgb(85, 85, 85);
+}
+.btn:hover{
+    background-color: rgb(128, 190, 190);
+}
+.tambah {
+    color: white;
+    background-color: rgb(0, 107, 247);
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px rgb(85, 85, 85);
+}
+.tambah:hover{
+    background-color:rgb(2, 62, 139);
+}
+.namaAdmin{
+    color: rgb(223, 223, 223);
+    text-decoration: none;
+}
